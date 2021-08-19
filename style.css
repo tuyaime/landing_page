@@ -1,0 +1,326 @@
+                @font-face {
+                    font-family: 'Poppins';
+                    src: url(/Poppins/Poppins-Black.ttf);
+                }
+                
+                @font-face {
+                    font-family: 'sans';
+                    src: url(/Open_Sans/OpenSans-Bold.ttf);
+                }
+                
+                body {
+                    /* background-color: greenyellow; */
+                    padding: 0 40px;
+                }
+                
+                .all {
+                    background-color: aqua;
+                    display: flex;
+                    flex-direction: row;
+                }
+                
+                .logo {
+                    width: 40px;
+                    height: 60px;
+                }
+                
+                .btn1 {
+                    /* display: flex;
+                    flex-direction: column; */
+                    color: hsl(322, 100%, 66%);
+                    border: 2px solid hsl(322, 100%, 66%);
+                    border-radius: 30px;
+                    padding-top: 8px;
+                    padding-right: 6px;
+                    height: 40px;
+                    width: 90px;
+                }
+                
+                .top {
+                    background-color: blue;
+                    width: 100%;
+                    height: 90%;
+                }
+                
+                .build {
+                    font-family: poppins;
+                    padding: 5px;
+                    font-size: 50px;
+                }
+                
+                .get {
+                    text-align: center;
+                }
+                
+                .text {
+                    text-align: center;
+                    font-family: poppins;
+                    padding: 1% 20% 1% 20%;
+                    font-size: 20px;
+                }
+                
+                #mockup {
+                    width: 70%;
+                    height: 90%;
+                    margin-right: 60px;
+                    text-align: center;
+                }
+                
+                .M_U {
+                    text-align: center;
+                }
+                
+                .btn2 {
+                    border-radius: 30px;
+                    border: 30px;
+                    width: 30%;
+                    height: 70px;
+                    background-color: hsl(322, 100%, 66%);
+                    color: white;
+                    margin-bottom: 10%;
+                    font-size: large;
+                }
+                
+                .fml {
+                    background-color: red;
+                    display: flex;
+                    flex-direction: row;
+                }
+                
+                .numbr {
+                    display: flex;
+                    flex-direction: column;
+                    width: 10%;
+                    /* height: 3px; */
+                    padding-right: 20%;
+                    padding-left: 10%;
+                    margin-right: 60px;
+                }
+                
+                .msg {
+                    padding-left: 25%;
+                    width: 10%;
+                    /* display: flex;
+                    flex-direction: column; */
+                }
+                
+                .cm {
+                    font-size: large;
+                    font-family: sans;
+                }
+                
+                .sent {
+                    font-size: large;
+                    font-family: sans;
+                }
+                
+                .container2 {
+                    /* background-color: aqua; */
+                    display: flex;
+                    flex-direction: row;
+                }
+                
+                .hills {
+                    width: 100%;
+                }
+                
+                .one {
+                    display: flex;
+                    flex-direction: column;
+                    width: 50%;
+                    padding-left: 60px;
+                }
+                
+                .two {
+                    width: 50%;
+                }
+                
+                .land {
+                    width: 100%;
+                }
+                
+                .big {
+                    width: 100%;
+                }
+                
+                .txt {
+                    text-align: left;
+                    padding-right: 50px;
+                    width: 70%;
+                    height: 80%;
+                }
+                
+                #together {
+                    width: 80%;
+                    height: 70%;
+                }
+                
+                .box2_flex {
+                    background-color: yellowgreen;
+                    display: flex;
+                    flex-direction: row;
+                }
+                
+                #conversation {
+                    width: 80%;
+                    height: 90%;
+                }
+                
+                .four {
+                    width: 50%;
+                }
+                
+                #trees {
+                    width: 50%;
+                }
+                
+                .box3_flex {
+                    background-color: hsl(207, 100%, 98%);
+                    display: flex;
+                    flex-direction: row;
+                }
+                
+                .section {
+                    width: 100%;
+                }
+                
+                .try {
+                    width: 100%;
+                }
+                
+                .six {
+                    display: flex;
+                    text-align: center;
+                    flex-direction: column;
+                    width: 50%;
+                }
+                
+                #user {
+                    width: 95%;
+                    height: 90%;
+                }
+                
+                .t {
+                    text-align: center;
+                    padding: 0 60px 0 40px;
+                    width: 50%;
+                    height: 50%;
+                }
+                
+                .eight {
+                    width: 50%;
+                }
+                
+                .box4_flex {
+                    background-color: darkblue;
+                    text-align: center;
+                }
+                
+                .btn3 {
+                    border-radius: 20px;
+                    border: 20px;
+                    width: 20%;
+                    height: 40px;
+                    color: hsl(322, 100%, 66%);
+                    margin-bottom: 8px;
+                }
+                
+                .container3 {
+                    background-color: hsl(192, 100%, 9%);
+                    display: flex;
+                    flex-direction: row;
+                }
+                
+                .hundred {
+                    /* background-color: cyan; */
+                    display: flex;
+                    flex-direction: column;
+                    width: 50%;
+                    padding: 5px 0 5px 30px;
+                }
+                
+                .page {
+                    color: white;
+                }
+                
+                .boxes {
+                    width: 50%;
+                }
+                
+                .lorem {
+                    color: white;
+                }
+                
+                .icons {
+                    display: flex;
+                    flex-direction: row;
+                    /* background-color: blue; */
+                    width: 50%;
+                    padding: 5px 0 5px 10px;
+                }
+                
+                a i {
+                    color: white;
+                }
+                
+                .fa-facebook {
+                    padding-left: 20pxs;
+                }
+                
+                .fa-twitter {
+                    padding-left: 20px;
+                }
+                
+                .fa-instagram {
+                    padding-left: 20px;
+                }
+                
+                .new {
+                    /* background-color: blueviolet; */
+                    display: flex;
+                    flex-direction: column;
+                    width: 50%;
+                }
+                
+                .com {
+                    color: white;
+                }
+                
+                .phone {
+                    color: white;
+                }
+                
+                .receive {
+                    text-align: center;
+                    width: 70%;
+                    height: 80%;
+                    padding: 0 0 0 50px;
+                    color: white;
+                }
+                
+                .letter {
+                    text-align: center;
+                    color: white;
+                }
+                
+                .btn4 {
+                    /* display: flex;
+                    flex-direction: row; */
+                    border-radius: 20px;
+                    border: 30px;
+                    width: 90px;
+                    height: 30px;
+                }
+                
+                #enter {
+                    border-radius: 30px;
+                    border: 30px;
+                    width: 30%;
+                    height: 70px;
+                }
+                
+                .between {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 0 0 90px;
+                }
