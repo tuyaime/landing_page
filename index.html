@@ -10,6 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
+    <!-- java script to validate email -->
+
 </head>
 
 <body>
@@ -54,6 +56,7 @@
             </div>
     </header>
     <img src="huddle-landing-page-starter-main/images/bg-section-top-desktop-1.svg" class="big">
+    <img src="huddle-landing-page-starter-main/images/bg-section-top-mobile-1.svg" class="mb-big">
     <div class="container2">
         <div class="one">
             <h2 class="grow"> Grow Together</h2>
@@ -66,6 +69,7 @@
         </div>
     </div>
     <img src="huddle-landing-page-starter-main/images/bg-section-bottom-desktop-1.svg" class="land">
+    <img src="huddle-landing-page-starter-main/images/bg-section-bottom-mobile-1.svg" class="mb-land">
     <div class="box2_flex">
         <div class="five">
             <img src="/huddle-landing-page-starter-main/images/illustration-flowing-conversation.svg" id="conversation" alt=" flowing-conversation">
@@ -80,6 +84,7 @@
 
     </div>
     <img src="/huddle-landing-page-starter-main/images/bg-section-top-desktop-2.svg" class="section">
+    <img src="huddle-landing-page-starter-main/images/bg-section-top-mobile-2.svg" class="mb-section">
     <div class="box3_flex">
         <div>
             <h1 class="six">Your Users</h1>
@@ -92,6 +97,7 @@
         </div>
     </div>
     <img src="huddle-landing-page-starter-main/images/bg-section-bottom-desktop-2.svg" class="try">
+    <img src="huddle-landing-page-starter-main/images/bg-section-bottom-desktop-2.svg" class="mb-try">
     <div class="box4_flex">
         <h2 class="read">
             Ready To Build Your Community?
@@ -143,16 +149,22 @@
                 <h2 class="letter"> Newsletter</h2>
                 <p class="receive">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address</p>
                 <div class="between">
-                    <input id="enter" type="button">
-                    <button class="btn4" type="subscribe">subscribe</button>
+                    <div class="between-input">
+                        <input id="email" class="email" type="email">
+                        <button class="btn4" type="subscribe" onclick="ValidateEmail()">subscribe</button>
+                    </div>
+                    <h4 id='result'></h4>
+
                 </div>
+
             </div>
         </div>
 
 
     </footer>
 
-    <script src="" async defer></script>
+
+    <script src="./script.js"></script>
 
 </body>
 
