@@ -9,6 +9,6 @@ function ValidateEmail(mail) {
         result.innerHTML = 'You entered ' + email.value
         return true;
     }
-    result.innerHTML = 'You have entered an invalid email address!'
+    result.innerHTML = 'Check your email please!'
     return false;
 }
